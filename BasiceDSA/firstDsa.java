@@ -40,6 +40,16 @@ public class firstDsa {
         }
         System.out.println("find the second maximun element :" + secondmin);
 
+        // find the third maximum number inthe array
+        // 10,20,30,40
+        int third=Integer.MIN_VALUE;
+        for(int i=0;i<size;i++){
+            if ((third<array[i])&&(array[i]<secondmin)){
+                third=array[i];
+            }
+        }
+        System.out.println("find the third mixmum number in the all array element :"+third);
+
         scan.close();
 
     }
