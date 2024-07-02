@@ -33,7 +33,7 @@ public class firstDsa {
         // 10,20,30,40
         int secondmin = Integer.MIN_VALUE;
         for (int i = 0; i < size; i++) {
-            if (secondmin < array[i] && array[i]!=ans) {
+            if (secondmin < array[i] && array[i] != ans) {
                 secondmin = array[i];
 
             }
@@ -42,13 +42,13 @@ public class firstDsa {
 
         // find the third maximum number inthe array
         // 10,20,30,40
-        int third=Integer.MIN_VALUE;
-        for(int i=0;i<size;i++){
-            if ((third<array[i])&&(array[i]<secondmin)){
-                third=array[i];
+        int third = Integer.MIN_VALUE;
+        for (int i = 0; i < size; i++) {
+            if ((third < array[i]) && (array[i] < secondmin)) {
+                third = array[i];
             }
         }
-        System.out.println("find the third mixmum number in the all array element :"+third);
+        System.out.println("find the third mixmum number in the all array element :" + third);
 
         scan.close();
 
