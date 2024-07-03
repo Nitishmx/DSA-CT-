@@ -1,3 +1,4 @@
+package FIRST_CLASS;
 import java.util.Scanner;
 
 public class firstDsa {
