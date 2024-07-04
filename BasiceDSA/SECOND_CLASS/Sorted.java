@@ -51,11 +51,15 @@ public class Sorted {
 
     // right shift array all element
     public static void RightShift(int arra[]){
+        int lengt=arra.length-1;
         int temp=arra[arra.length-1];
-        System.out.println(temp+".....");
-        for(int i=0;i<arra.length-2;i++){
-            arra[arra.length-1-i]=arra[i+1];
 
+
+        // 
+
+        // for(int i=lengt;i>=1;i--)  some doute create
+        for(int i=lengt;i>=1;i--){
+            arra[i]=arra[i-1];
         }
         arra[0]=temp;
 
