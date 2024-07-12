@@ -13,7 +13,7 @@ public class firstDsa {
             array[i] = scan.nextInt();
 
         }
-        System.out.println("array all element print");
+        System.out.println("array all element print"); 
         // print the array all
         for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
