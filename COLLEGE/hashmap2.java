@@ -2,7 +2,7 @@ import java.util.HashMap;
 
 public class hashmap2 {
     public static void main(String[] args) {
-        int array[]={1,28,8,86,6,6,3,3,7,58,8,8,8};
+        int array[]={1,28,8,86,6,6,3,3,7,58,8,8,8,-120};
         HashMap<Integer,Integer> map=new HashMap<>();
         for(int i=0;i<array.length;i++){
             if (map.containsKey(array[i])) {
